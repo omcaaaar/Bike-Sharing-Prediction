@@ -17,3 +17,23 @@ of travel, departure and arrival position is explicitly recorded in these system
 a virtual sensor network that can be used for sensing mobility in the city. Hence, it is expected that most of important
 events in the city could be detected via monitoring these data.
 (Please refer the readme.txt file available in Bike-Sharing-Dataset folder for details about dataset)
+
+
+**Running the code**
+
+1. git clone the repository and navigate to the directory in terminal
+    (git clone https://github.com/omcaaaar/Bike-Sharing-Prediction.git)
+    (cd Bike-Sharing-Prediction)
+    
+2. Create conda environment
+    (conda create --name <ENV_NAME> python=3)
+or you can use the one you already have.
+
+3. Activate the environment
+    (source activate <ENV_NAME>)
+    
+4. Install the packages
+    (conda install numpy matplotlib pandas jupyter notebook)
+    
+5. Open jupyter notebook and run the cells in 'Your_first_neural_network.ipynb'
+    (jupyter notebook Your_first_neural_network.ipynb)
